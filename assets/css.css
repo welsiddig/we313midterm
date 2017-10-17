@@ -1,0 +1,81 @@
+header {
+    display: block;
+}
+    background-color: white;
+}
+
+head {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 100%
+}
+
+h3 {
+    text-align: center;
+}
+a {
+    color: Indigo
+}
+
+img {
+    border-radius: 8px;
+}
+
+p {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+footer {
+  font-size: 20%
+}
+
+footer{
+  <style>
+  a:link, a:visited {
+      background-color: indigo;
+      color: white;
+      padding: 20px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+  }
+
+
+  a:hover, a:active {
+      background-color: red;
+  }
+  </style>
+
+}
+ol {
+  text-align: center;
+}
+
+a:hover { text-decoration:none;
+text-shadow: 0 0 2px #999;
+}
+
+#contentinfo p{
+  line-height: 20px;
+  margin: 30px;
+  padding-bottom: 40px;
+  text-align: center;
+  width: 300px;
+  color: indigo;
+}
+a: hover + div {
+      display: block;
+
+}

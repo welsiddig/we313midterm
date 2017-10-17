@@ -1,0 +1,225 @@
+body {
+  background: #8e6060
+}
+
+#video-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.navigate {
+  background-color: clear;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigate1 {
+  background-color: clear;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+
+.kanye strong {
+  color: white;
+  font-size: 210px;
+  position: static;
+  margin: 0;
+  text-align: center;
+}
+
+.navigate a {
+  color: white;
+  text-align: center;
+  padding: 15px;
+  min-width: 150px;
+  text-decoration: none;
+  text-decoration-style: italic;
+  font-size: 21px;
+  font-family: "oxygen", sans-serif;
+  text-transform: uppercase;
+  text-style: italic;
+}
+
+
+.navigate1 a {
+  float: center;
+  display: block;
+  color: white;
+  text-align: bottom;
+  padding: 5px 5px;
+  text-decoration: none;
+  text-decoration-style: italic;
+  font-size: 21px;
+  font-family: "oxygen", sans-serif;
+  text-style: italic;
+}
+
+#cd1 {
+  position: relative;
+  visibility: visible;
+  left: 0px;
+  right: -30px;
+  top: 20px;
+  z-index: 20;
+  float: left;
+}
+
+img {
+  opacity: 1;
+  filter: alpha(opacity=50);
+}
+
+.navigate a:hover {
+  background-color: #ddd;
+  background-image: : white;
+}
+
+.navigate1 a:hover {
+  background-color: #ddd;
+  background-image: : white;
+}
+
+#cdo:hover {
+  color: white;
+  background-image: url('assets/cd.jpg');
+  background-size: cover;
+}
+#late:hover {
+  color: white;
+  background-image: url('assets/latereg.jpg');
+  background-size: cover;
+}
+#grad:hover {
+  color: white;
+  background-image: url('assets/graduation.jpg');
+  background-size: cover;
+}
+#heartbreak:hover {
+  color: white;
+  background-image: url('assets/808.jpg');
+  background-size: cover;
+}
+#md:hover {
+  color: white;
+  background-image: url('assets/crop.png');
+  background-size: cover;
+}
+#yeez:hover {
+  color: white;
+  background-image: url('assets/yeezus.jpg');
+  background-size: cover;
+}
+#tll:hover {
+  color: white;
+  background-image: url('assets/pablo.jpg');
+  background-size: cover;
+}
+/* Add a color to the active/current link */
+
+.navigate a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.navigate1 a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+h2 {
+  font-family: "oxygen", sans-serif;
+  text-size: 30px
+}
+
+footer {
+  font-family: "oxygen", sans-serif;
+}
+
+#video-container video {
+  top: 300;
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  height: auto !important;
+  width: auto !important;
+  display: block;
+}
+
+p {
+  font-family: "oxygen", sans-serif;
+  align: center;
+  word-wrap: break-word;
+  opacity: 1;
+}
+
+.album-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: royalblue;
+  border-radius: 3px;
+  margin: 20px;
+  padding: 10px 0 40px 0;
+  line-height: 1;
+  opacity: .8;
+}
+
+.album-title {
+  color: white;
+  font-size: 100px;
+  margin: 50px;
+  top: 200px;
+  text-transform: uppercase;
+}
+
+.album-mini-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.album-art-container {
+  width: 38%;
+}
+
+.album-art {
+  width: 100%;
+}
+
+.album-description {
+  width: 45%;
+}
+
+.album-description p {
+  color: white;
+  font-size: 25px;
+  word-wrap: normal;
+  margin: 0 34px text-transform: uppercase;
+}
+
+/* vanilla javascript*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 30px;
+  border-radius: 10px;
+  opacity: .8;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
